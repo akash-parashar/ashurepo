@@ -1,8 +1,10 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import Link from "next/link";
 
+
+
 export function AnimatedTestimonialsDemo() {
-  const testimonials = [
+  const testimonials:any = [
     {
       description:
         "This proposed conference is expected to provide a platform for young minds to bridge the gap between academia and the healthcare industry. All the accepted papers will be published as proceedings of ICMI 2024 with ISBN No.",
@@ -31,9 +33,10 @@ export function AnimatedTestimonialsDemo() {
       designation: <Link href={"https://drive.google.com/file/d/1A9DfhfF0srOGCrJmI15wO_BR5Rkx1YMU/view"}>see the Brochure here</Link>,
       src: "https://lh3.googleusercontent.com/DCLTCxylYp629N94QC-dSDy5mLq8l4ecUNT2MUCBA_9jKg6CVcSY3qmtH4KYq1s8Sn6aLjlurS6PfVURzujkXXeQohy2y5XDVARZbsEXfLq-vmjPAe_lMm9ErxqED9B6NA=w1280",
     },
+   
     
   ];
-  return <AnimatedTestimonials testimonials={testimonials} />;
+  return <AnimatedTestimonials testimonials={testimonials} autoplay={true}  />;
 }
 
 // 
