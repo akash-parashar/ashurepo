@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 "use client";
 
 
@@ -14,6 +14,7 @@ type Testimonial = {
   link: string;
   src: string;
 };
+
 export const AnimatedTestimonials = ({
   testimonials,
   autoplay = false,

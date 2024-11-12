@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { link } from "fs";
 import Link from "next/link";
@@ -8,7 +8,7 @@ import { title } from "process";
 
 
 export function AnimatedTestimonialsDemo() {
-  const testimonials = [
+  const testimonials:any= [
     {
       description:
         "This proposed conference is expected to provide a platform for young minds to bridge the gap between academia and the healthcare industry. All the accepted papers will be published as proceedings of ICMI 2024 with ISBN No.",
@@ -40,7 +40,7 @@ export function AnimatedTestimonialsDemo() {
    
     
   ];
-  return <AnimatedTestimonials testimonials={testimonials} autoplay={true}  />;
+  return <AnimatedTestimonials testimonials={testimonials} autoplay={false}  />;
 }
 
 // 
