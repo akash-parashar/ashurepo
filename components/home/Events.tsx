@@ -1,6 +1,8 @@
 // @ts-nocheck
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import { link } from "fs";
 import Link from "next/link";
+import { title } from "process";
 
 
 
@@ -31,8 +33,8 @@ export function AnimatedTestimonialsDemo() {
     {
       description:
         "The conference exhibit provides start-ups, companies, or organizations the opportunity to showcase their latest innovations, equipment, products & services to attendees from around the world.",
-      name: "Exhibition & Product Demos",
-      designation: <Link href={"https://drive.google.com/file/d/1A9DfhfF0srOGCrJmI15wO_BR5Rkx1YMU/view"}>see the Brochure here</Link>,
+      title: "Exhibition & Product Demos",
+      link: <Link href={"https://drive.google.com/file/d/1A9DfhfF0srOGCrJmI15wO_BR5Rkx1YMU/view"}>see the Brochure here</Link>,
       src: "https://lh3.googleusercontent.com/DCLTCxylYp629N94QC-dSDy5mLq8l4ecUNT2MUCBA_9jKg6CVcSY3qmtH4KYq1s8Sn6aLjlurS6PfVURzujkXXeQohy2y5XDVARZbsEXfLq-vmjPAe_lMm9ErxqED9B6NA=w1280",
     },
    
