@@ -1,10 +1,12 @@
+// @ts-nocheck
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import Link from "next/link";
 
 
 
+
 export function AnimatedTestimonialsDemo() {
-  const testimonials:any = [
+  const testimonials = [
     {
       description:
         "This proposed conference is expected to provide a platform for young minds to bridge the gap between academia and the healthcare industry. All the accepted papers will be published as proceedings of ICMI 2024 with ISBN No.",
